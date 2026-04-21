@@ -60,14 +60,6 @@ function draw() {
     randomColor1 = randomColor2;
     randomColor2 = colorGenerate();
   }
-  
-  
-  
-  if(t % 1000 == 0){
-    summonBricks();
-  }
-  
-  timer();
 }
 
 function hitbox() {
@@ -112,6 +104,7 @@ function colorGenerate() {
     }
 }
 
+/*
 function summonBricks() {
   let randomN;
   let i = 0;
@@ -139,7 +132,4 @@ function summonBricks() {
     }
   }
 }
-
-function timer() {
-  t++;
-}
+*/
